@@ -19,8 +19,28 @@ variable "zones" {
   default     = ["dal10", "dal12","dal13"]
 }
 
+variable "zone_router_map_public" {
+  type = "map"
+  default = {
+    "dal10" = "fcr01a.dal10"
+    "dal12" = "fcr01a.dal12"
+    "dal13" = "fcr01a.dal13"
+  }
+}
+
+variable "zone_router_map_private" {
+  type = "map"
+  default = {
+    "dal10" = "bcr01a.dal10"
+    "dal12" = "bcr01a.dal12"
+    "dal13" = "bcr01a.dal13"
+  }
+}
+
+
+
 variable "team" {
-  default = "b2c"
+  default = "poc"
 }
  
 variable "cloud_service"{
@@ -28,10 +48,10 @@ variable "cloud_service"{
 }
 
 variable "service" { 
-  default = "auth"
+  default = "env"
 }
 variable "group" {
-  default = "terraform-dev-rg"
+  default = "Default"
 }
 
 variable "machine_type" {
