@@ -5,7 +5,6 @@ VLAN dal10
  ID          Name                Number   Type      Router       Supports Virtual Workers   
 2788828   f-event-strim-dev   952      private   bcr02a.dal10   true   
 2705304   vlan-dal10-priv1    1778     private   bcr02a.dal10   true   
-2739488                       1948     private   bcr03a.dal10   true   
 2788822   event-strim-dev     1944     public    fcr01a.dal10   true   
 2705302   vlan-dal10-pub      1672     public    fcr02a.dal10   true   
 2739486                       1803     public    fcr03a.dal10   true   
