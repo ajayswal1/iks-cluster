@@ -23,6 +23,8 @@ ID        Name                 Number   Type      Router         Supports Virtua
 
 
 VLAN dal13
+
+
 OK
 ID        Name                Number   Type      Router         Supports Virtual Workers   
 2739492                       2907     private   bcr02a.dal13   true   
